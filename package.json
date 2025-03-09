@@ -1,0 +1,45 @@
+{
+  "name": "it-park",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
+    "@radix-icons/vue": "^1.0.0",
+    "@vee-validate/zod": "^4.15.0",
+    "@vueuse/core": "^12.7.0",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "dropzone-vue": "^0.1.11",
+    "lucide-vue-next": "^0.475.0",
+    "pinia": "^2.3.1",
+    "qrcode": "^1.5.4",
+    "reka-ui": "^2.0.2",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "webpack": "^5.98.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "3",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vite-plugin-vue-devtools": "^7.7.0"
+  },
+  "trustedDependencies": [
+    "core-js"
+  ]
+}
